@@ -1,0 +1,948 @@
+[
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIH7TH4MF/@@download/4DNFIH7TH4MF.hic", 
+        "type": "hic", 
+        "name": "IMR-90 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "IMR-90"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFITSIPCSK/@@download/4DNFITSIPCSK.hic", 
+        "type": "hic", 
+        "name": "T47D dilution Hi-C", 
+        "showOnHubLoad": true,
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "T47D"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIQYQWPF5/@@download/4DNFIQYQWPF5.hic", 
+        "type": "hic", 
+        "name": "H1-hESC (Tier 1) in situ Hi-C", 
+        "showOnHubLoad": true,
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "H1-hESC (Tier 1)"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: DpnII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIFLJLIS5/@@download/4DNFIFLJLIS5.hic", 
+        "type": "hic", 
+        "name": "HFFc6 (Tier 1) in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFFc6 (Tier 1)"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: DpnII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI1UEG1HD/@@download/4DNFI1UEG1HD.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIHKWIZ9T/@@download/4DNFIHKWIZ9T.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIW6H9U3S/@@download/4DNFIW6H9U3S.hic", 
+        "type": "hic", 
+        "name": "IMR-90 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "IMR-90"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIRV6PVUX/@@download/4DNFIRV6PVUX.hic", 
+        "type": "hic", 
+        "name": "HG00512 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00512"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIGDGXCLN/@@download/4DNFIGDGXCLN.hic", 
+        "type": "hic", 
+        "name": "RUES2 DNase Hi-C", 
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "RUES2"
+            ], 
+            "Assay": [
+                "DNase Hi-C", 
+                "Enzyme: DNaseI"
+            ], 
+            "Lab": "Chuck Murry, UW"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIFI6NIKJ/@@download/4DNFIFI6NIKJ.hic", 
+        "type": "hic", 
+        "name": "H1-hESC dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "H1-hESC"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIOW9TTC1/@@download/4DNFIOW9TTC1.hic", 
+        "type": "hic", 
+        "name": "NCI-H460 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "NCI-H460"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIBM714BP/@@download/4DNFIBM714BP.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI5VO3E1W/@@download/4DNFI5VO3E1W.hic", 
+        "type": "hic", 
+        "name": "G401 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "G401"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFID68JQY9/@@download/4DNFID68JQY9.hic", 
+        "type": "hic", 
+        "name": "A549 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "A549"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIP1GNKUO/@@download/4DNFIP1GNKUO.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI6CWNUFL/@@download/4DNFI6CWNUFL.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI8649RQJ/@@download/4DNFI8649RQJ.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIL1FQDXE/@@download/4DNFIL1FQDXE.hic", 
+        "type": "hic", 
+        "name": "SK-N-DZ dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "SK-N-DZ"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIFDGVWLU/@@download/4DNFIFDGVWLU.hic", 
+        "type": "hic", 
+        "name": "Panc1 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "Panc1"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI9YAVTI1/@@download/4DNFI9YAVTI1.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIT96Z365/@@download/4DNFIT96Z365.hic", 
+        "type": "hic", 
+        "name": "KBM-7 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "KBM-7"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIA5ID1S6/@@download/4DNFIA5ID1S6.hic", 
+        "type": "hic", 
+        "name": "HG00514 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00514"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIL9M97T2/@@download/4DNFIL9M97T2.hic", 
+        "type": "hic", 
+        "name": "192627 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "192627"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIAWVDQ8C/@@download/4DNFIAWVDQ8C.hic", 
+        "type": "hic", 
+        "name": "HUVEC cell in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "HUVEC cell"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIOAA3ZEQ/@@download/4DNFIOAA3ZEQ.hic", 
+        "type": "hic", 
+        "name": "RPMI-7951 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "RPMI-7951"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIN39NO4O/@@download/4DNFIN39NO4O.hic", 
+        "type": "hic", 
+        "name": "RUES2 DNase Hi-C", 
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "RUES2"
+            ], 
+            "Assay": [
+                "DNase Hi-C", 
+                "Enzyme: DNaseI"
+            ], 
+            "Lab": "Chuck Murry, UW"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI9VXTBE2/@@download/4DNFI9VXTBE2.hic", 
+        "type": "hic", 
+        "name": "HUVEC cell in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "HUVEC cell"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIQS8853L/@@download/4DNFIQS8853L.hic", 
+        "type": "hic", 
+        "name": "GM19240 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM19240"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIGLGQXLC/@@download/4DNFIGLGQXLC.hic", 
+        "type": "hic", 
+        "name": "HG00732 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00732"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFITUOMFUQ/@@download/4DNFITUOMFUQ.hic", 
+        "type": "hic", 
+        "name": "K562 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "K562"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIMEG1QIC/@@download/4DNFIMEG1QIC.hic", 
+        "type": "hic", 
+        "name": "CC-2551 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "CC-2551"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIJIPWD63/@@download/4DNFIJIPWD63.hic", 
+        "type": "hic", 
+        "name": "Caki2 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "Caki2"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFILS2HLXC/@@download/4DNFILS2HLXC.hic", 
+        "type": "hic", 
+        "name": "HG00731 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00731"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI5CGQ46V/@@download/4DNFI5CGQ46V.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIZYU7V81/@@download/4DNFIZYU7V81.hic", 
+        "type": "hic", 
+        "name": "HG00513 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00513"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIZGCA8AH/@@download/4DNFIZGCA8AH.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI7J8BQ4P/@@download/4DNFI7J8BQ4P.hic", 
+        "type": "hic", 
+        "name": "GM12878 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIOCW5AEM/@@download/4DNFIOCW5AEM.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIPAI8XB5/@@download/4DNFIPAI8XB5.hic", 
+        "type": "hic", 
+        "name": "GM12878 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: NcoI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIEBC4AF3/@@download/4DNFIEBC4AF3.hic", 
+        "type": "hic", 
+        "name": "LNCaP clone FGC dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "LNCaP clone FGC"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI53R5IKA/@@download/4DNFI53R5IKA.hic", 
+        "type": "hic", 
+        "name": "HUVEC cell dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "HUVEC cell"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIX4PJKXZ/@@download/4DNFIX4PJKXZ.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI9ZWZ5BS/@@download/4DNFI9ZWZ5BS.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: DpnII"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIOX3BGNE/@@download/4DNFIOX3BGNE.hic", 
+        "type": "hic", 
+        "name": "H1-hESC in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "H1-hESC"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: DpnII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIWSB66VX/@@download/4DNFIWSB66VX.hic", 
+        "type": "hic", 
+        "name": "IMR-90 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "IMR-90"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFISR6UFJX/@@download/4DNFISR6UFJX.hic", 
+        "type": "hic", 
+        "name": "RUES2 DNase Hi-C", 
+        "metadata": {
+            "Sample": [
+                "stem cell derived cell line", 
+                "RUES2"
+            ], 
+            "Assay": [
+                "DNase Hi-C", 
+                "Enzyme: DNaseI"
+            ], 
+            "Lab": "Chuck Murry, UW"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFITVGFNYZ/@@download/4DNFITVGFNYZ.hic", 
+        "type": "hic", 
+        "name": "SK-MEL-5 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "SK-MEL-5"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIMEANFBY/@@download/4DNFIMEANFBY.hic", 
+        "type": "hic", 
+        "name": "HG00733 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HG00733"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIDWGZLHX/@@download/4DNFIDWGZLHX.hic", 
+        "type": "hic", 
+        "name": "CC-2551 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "CC-2551"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFI1E6NJQJ/@@download/4DNFI1E6NJQJ.hic", 
+        "type": "hic", 
+        "name": "HAP-1 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HAP-1"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIVBYCYGS/@@download/4DNFIVBYCYGS.hic", 
+        "type": "hic", 
+        "name": "GM19239 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM19239"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIZ4F74QR/@@download/4DNFIZ4F74QR.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: DpnII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFISPUVQHA/@@download/4DNFISPUVQHA.hic", 
+        "type": "hic", 
+        "name": "HFF-hTERT in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "HFF-hTERT"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: NcoI"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIHLQKDN8/@@download/4DNFIHLQKDN8.hic", 
+        "type": "hic", 
+        "name": "192627 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "primary cell", 
+                "192627"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIJ88LYHR/@@download/4DNFIJ88LYHR.hic", 
+        "type": "hic", 
+        "name": "SK-N-MC dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "SK-N-MC"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIE4WWHMF/@@download/4DNFIE4WWHMF.hic", 
+        "type": "hic", 
+        "name": "GM19238 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM19238"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Bing Ren, UCSD"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIZUP2BBI/@@download/4DNFIZUP2BBI.hic", 
+        "type": "hic", 
+        "name": "SJCRH30 dilution Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "SJCRH30"
+            ], 
+            "Assay": [
+                "dilution Hi-C", 
+                "Enzyme: HindIII"
+            ], 
+            "Lab": "Job Dekker, UMMS"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIF1EWFUP/@@download/4DNFIF1EWFUP.hic", 
+        "type": "hic", 
+        "name": "heart DNase Hi-C", 
+        "metadata": {
+            "Sample": [
+                "tissue", 
+                "heart"
+            ], 
+            "Assay": [
+                "DNase Hi-C", 
+                "Enzyme: DNaseI"
+            ], 
+            "Lab": "Chuck Murry, UW"
+        }
+    }, 
+    {
+        "url": "https://data.4dnucleome.org/files-processed/4DNFIZBBX795/@@download/4DNFIZBBX795.hic", 
+        "type": "hic", 
+        "name": "GM12878 in situ Hi-C", 
+        "metadata": {
+            "Sample": [
+                "immortalized cell line", 
+                "GM12878"
+            ], 
+            "Assay": [
+                "in situ Hi-C", 
+                "Enzyme: MboI"
+            ], 
+            "Lab": "Erez Lieberman Aiden, BCM"
+        }
+    }
+]

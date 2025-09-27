@@ -46,6 +46,7 @@ type AgentState = {
   datahub?: string;
   session?: string;
   noDefaultTracks?: boolean;
+  localHubs?: Record<string, string>;
 }
 
 function YourMainContent({ themeColor }: { themeColor: string }) {
@@ -56,7 +57,13 @@ function YourMainContent({ themeColor }: { themeColor: string }) {
       genome: "hg38",
       position: "chr1:1-1,000,000",
       hub: [],
-      noDefaultTracks: false,
+      noDefaultTracks: true,
+      localHubs: {
+        "4dn_hg38": "/public_hubs/hg38/4dn_hg38.json",
+        "Roadmap_hg38_ChIPseq_June2021": "/public_hubs/hg38/Roadmap_hg38_ChIPseq_June2021.json",
+        "Roadmap_hg38_others_June2021": "/public_hubs/hg38/Roadmap_hg38_others_June2021.json",
+        "roadmap_hmm": "/public_hubs/hg38/roadmap_hmm.json",
+      },
     },
   })
 

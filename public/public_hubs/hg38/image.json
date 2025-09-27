@@ -1,0 +1,811 @@
+[
+    {
+        "type": "omeroidr",
+        "name": "idr0052-walther-condensinmap-experimentC-754",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-754-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "stimulated emission depletion (STED)"
+        },
+        "details": {
+            "number of images": "134",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "stimulated emission depletion (STED)",
+            "Publication Title": "A quantitative map of human Condensins provides new insights into mitotic chromosome architecture.",
+            "Publication Authors": "Walther N, Hossain MJ, Politi AZ, Koch B, Kueblbeck M, \u00d8deg\u00e5rd-Fougner \u00d8, Lampe M, Ellenberg J",
+            "PubMed ID": "29632028 https://www.ncbi.nlm.nih.gov/pubmed/29632028",
+            "PMC ID": "PMC6028534 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6028534",
+            "Publication DOI": "10.1083/jcb.201801048 https://doi.org/10.1083/jcb.201801048",
+            "Release Date": "2019-04-15",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Walther et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000123c https://doi.org/10.17867/10000123c",
+            "Annotation File": "idr0052-experimentC-annotation.csv https://github.com/IDR/idr0052-walther-condensinmap/blob/master/experimentC/idr0052-experimentC-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0009-simpson-secretion-screenB-803",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-803-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "16804",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway",
+            "Study Type": "high content screen",
+            "Screen Type": "validation screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway.",
+            "Publication Authors": "Simpson JC, Joggerst B, Laketa V, Verissimo F, Cetin C, Erfle H, Bexiga MG, Singan VR, H\u00e9rich\u00e9 JK, Neumann B, Mateos A, Blake J, Bechtel S, Benes V, Wiemann S, Ellenberg J, Pepperkok R",
+            "PubMed ID": "22660414 https://www.ncbi.nlm.nih.gov/pubmed/22660414",
+            "Publication DOI": "10.1038/ncb2510 https://doi.org/10.1038/ncb2510",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Simpson et al",
+            "Annotation File": "idr0009-screenB-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0009-simpson-secretion/screenB/idr0009-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0028-pascualvargas-rhogtpases-screenC-1653",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1653-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "549",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "RNAi screens for Rho GTPase regulators of cell shape and YAP/TAZ localisation in triple negative breast cancer.",
+            "Publication Authors": "Pascual-Vargas P, Cooper S, Sero J, Bousgouni V, Arias-Garcia M, Bakal C",
+            "PubMed ID": "28248929 https://www.ncbi.nlm.nih.gov/pubmed/28248929",
+            "PMC ID": "PMC5332010 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332010",
+            "Publication DOI": "10.1038/sdata.2017.18 https://doi.org/10.1038/sdata.2017.18",
+            "Release Date": "2016-11-01",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Pascual Vargas et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000104C https://doi.org/10.17867/10000104C",
+            "Annotation File": "idr0028-screenC-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0028-pascualvargas-rhogtpases/screenC/idr0028-screenC-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0073-schaadt-immuneinfiltrates-experimentA-1002",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1002-track.bed.gz",
+        "metadata": {
+            "Sample Type": "tissue",
+            "Study Type": "histology",
+            "Imaging Method": "bright-field microscopy"
+        },
+        "details": {
+            "number of images": "193",
+            "Sample Type": "tissue",
+            "Organism": "Homo sapiens",
+            "Study Title": "Graph-based description of tertiary lymphoid organs (TLOs)  at single-cell level",
+            "Study Type": "histology",
+            "Imaging Method": "bright-field microscopy",
+            "Publication Title": "Graph-based description of tertiary lymphoid organs at single-cell level",
+            "Publication Authors": "Schaadt NS, Schoenmeyer R, Forestier G, Brieu N, Braubach P, Nekolla K, Meyer-Hermann M, Feuerhake F",
+            "PubMed ID": "32084130 https://www.ncbi.nlm.nih.gov/pubmed/32084130",
+            "Publication DOI": "10.1371/journal.pcbi.1007385 https://doi.org/10.1371/journal.pcbi.1007385",
+            "Release Date": "2020-03-03",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Schaadt et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000134 https://doi.org/10.17867/10000134",
+            "Annotation File": "idr0073-experimentA-annotation.csv https://github.com/IDR/idr0073-schaadt-immuneinfiltrates/blob/master/experimentA/idr0073-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0033-rohban-pathways-screenA-1751",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1751-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "3888",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Systematic morphological profiling of human gene and allele function via Cell Painting",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "ORF overexpression screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Systematic morphological profiling of human gene and allele function via Cell Painting.",
+            "Publication Authors": "Rohban MH, Singh S, Wu X, Berthet JB, Bray MA, Shrestha Y, Varelas X, Boehm JS, Carpenter AE",
+            "PubMed ID": "28315521 https://www.ncbi.nlm.nih.gov/pubmed/28315521",
+            "PMC ID": "PMC5386591 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5386591",
+            "Publication DOI": "10.7554/eLife.24060 https://doi.org/10.7554/eLife.24060",
+            "Release Date": "2017-03-16",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Rohban et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000105 https://doi.org/10.17867/10000105",
+            "Annotation File": "idr0033-screenA-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0033-rohban-pathways/screenA/idr0033-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0052-walther-condensinmap-experimentA-752",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-752-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "fluorescence correlation spectroscopy"
+        },
+        "details": {
+            "number of images": "282",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "fluorescence correlation spectroscopy",
+            "Publication Title": "A quantitative map of human Condensins provides new insights into mitotic chromosome architecture.",
+            "Publication Authors": "Walther N, Hossain MJ, Politi AZ, Koch B, Kueblbeck M, \u00d8deg\u00e5rd-Fougner \u00d8, Lampe M, Ellenberg J",
+            "PubMed ID": "29632028 https://www.ncbi.nlm.nih.gov/pubmed/29632028",
+            "PMC ID": "PMC6028534 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6028534",
+            "Publication DOI": "10.1083/jcb.201801048 https://doi.org/10.1083/jcb.201801048",
+            "Release Date": "2019-04-15",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Walther et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000123a https://doi.org/10.17867/10000123a",
+            "Annotation File": "idr0052-experimentA-annotation.csv https://github.com/IDR/idr0052-walther-condensinmap/blob/master/experimentA/idr0052-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0006-fong-nuclearbodies-screenA-253",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-253-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "14196",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Whole-genome screening identifies proteins localized to distinct nuclear bodies",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "protein screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Whole-genome screening identifies proteins localized to distinct nuclear bodies.",
+            "Publication Authors": "Fong KW, Li Y, Wang W, Ma W, Li K, Qi RZ, Liu D, Songyang Z, Chen J",
+            "PubMed ID": "24127217 https://www.ncbi.nlm.nih.gov/pubmed/24127217",
+            "PMC ID": "PMC3798253 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3798253",
+            "Publication DOI": "10.1083/jcb.201303145 https://doi.org/10.1083/jcb.201303145",
+            "Release Date": "2016-04-27",
+            "License": "CC BY-NC-SA 3.0 https://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "Copyright": "Fong et al",
+            "Annotation File": "idr0006-screenA-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0006-fong-nuclearbodies/screenA/idr0006-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0002-heriche-condensation-screenA-102",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-102-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "840",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Focused mitotic chromsome condensaton screen using HeLa cells",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Integration of biological data by kernels on graph nodes allows prediction of new genes involved in mitotic chromosome condensation.",
+            "Publication Authors": "H\u00e9rich\u00e9 JK, Lees JG, Morilla I, Walter T, Petrova B, Roberti MJ, Hossain MJ, Adler P, Fern\u00e1ndez JM, Krallinger M, Haering CH, Vilo J, Valencia A, Ranea JA, Orengo C, Ellenberg J",
+            "PubMed ID": "24943848 https://www.ncbi.nlm.nih.gov/pubmed/24943848",
+            "PMC ID": "PMC4142622 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4142622",
+            "Publication DOI": "10.1091/mbc.E13-04-0221 https://doi.org/10.1091/mbc.E13-04-0221",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Heriche et al",
+            "Annotation File": "idr0002-screenA-annotation.csv https://github.com/IDR/idr0002-heriche-condensation/blob/master/screenA/idr0002-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0023-szymborska-nuclearpore-experimentA-52",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-52-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "protein localization",
+            "Imaging Method": "STORM (stochastic optical reconstruction microscopy)"
+        },
+        "details": {
+            "number of images": "524",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "protein localization",
+            "Imaging Method": "STORM (stochastic optical reconstruction microscopy)",
+            "Publication Title": "Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging.",
+            "Publication Authors": "Szymborska A, de Marco A, Daigle N, Cordes VC, Briggs JA, Ellenberg J",
+            "PubMed ID": "23845946 https://www.ncbi.nlm.nih.gov/pubmed/23845946",
+            "Publication DOI": "10.1126/science.1240672 https://doi.org/10.1126/science.1240672",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Szymborska et al",
+            "Annotation File": "idr0023-experimentA-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0041-cai-mitoticatlas-experimentA-404",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-404-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "protein localization",
+            "Imaging Method": "fluorescence correlation spectroscopy"
+        },
+        "details": {
+            "number of images": "58306",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Experimental and computational framework for a dynamic protein atlas of human cell division",
+            "Study Type": "protein localization",
+            "Imaging Method": "fluorescence correlation spectroscopy",
+            "Publication Title": "Experimental and computational framework for a dynamic protein atlas of human cell division.",
+            "Publication Authors": "Cai Y, Hossain MJ, H\u00e9rich\u00e9 JK, Politi AZ, Walther N, Koch B, Wachsmuth M, Nijmeijer B, Kueblbeck M, Martinic-Kavur M, Ladurner R, Alexander S, Peters JM, Ellenberg J",
+            "PubMed ID": "30202089 https://www.ncbi.nlm.nih.gov/pubmed/30202089",
+            "PMC ID": "PMC6556381 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6556381",
+            "Publication DOI": "10.1038/s41586-018-0518-z https://doi.org/10.1038/s41586-018-0518-z",
+            "Release Date": "2018-04-12",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Cai et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000112 https://doi.org/10.17867/10000112",
+            "External URL": "http://www.mitocheck.org/mitotic_cell_atlas",
+            "Annotation File": "idr0041-experimentA-annotation.csv https://github.com/IDR/idr0041-cai-mitoticatlas/blob/master/experimentA/idr0041-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0077-valuchova-flowerlightsheet-experimentA-1101",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1101-track.bed.gz",
+        "metadata": {
+            "Sample Type": "tissue",
+            "Study Type": "time-lapse imaging",
+            "Imaging Method": "SPIM"
+        },
+        "details": {
+            "number of images": "142731",
+            "Sample Type": "tissue",
+            "Organism": "Arabidopsis thaliana",
+            "Study Type": "time-lapse imaging",
+            "Imaging Method": "SPIM",
+            "Publication Title": "Imaging plant germline differentiation within Arabidopsis flowers by light sheet microscopy",
+            "Publication Authors": "Valuchova S, Mikulkova P, Pecinkova J, Klimova J, Krumnikl M, Bainar P, Heckmann S, Tomancak P, Riha K",
+            "PubMed ID": "32041682 https://www.ncbi.nlm.nih.gov/pubmed/32041682",
+            "PMC ID": "PMC7012603 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7012603",
+            "Publication DOI": "10.7554/eLife.52546 https://doi.org/10.7554/eLife.52546",
+            "Release Date": "2020-06-30",
+            "License": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Valuchova et al",
+            "Data Publisher": "University of Dundee",
+            "Annotation File": "idr0077-experimentA-annotation.csv https://github.com/IDR/idr0077-valuchova-flowerlightsheet/blob/master/experimentA/idr0077-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0056-stojic-lncrnas-screenA-2301",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2301-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "1292",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Identification of long noncoding RNAs in regulation of cell division",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "A long noncoding RNA regulates microtubule behaviour during mitosis",
+            "Publication Authors": "Stojic L, Lun ATL, Mascalchi P, Ernst C, Redmond AM, Mangei J, Cooper S, Barr AR, Taylor C, Franklin VNR, Bakal C, Marioni JC, Odom DT, Gergely F",
+            "PubMed ID": "32296040 https://www.ncbi.nlm.nih.gov/pubmed/32296040",
+            "PMC ID": "PMC7160116 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7160116",
+            "Publication DOI": "10.1038/s41467-020-14978-7 https://doi.org/10.1038/s41467-020-14978-7",
+            "Release Date": "2020-03-03",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Stojic et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000133a https://doi.org/10.17867/10000133a",
+            "BioStudies Accession": "S-BIAD3 https://www.ebi.ac.uk/biostudies/studies/S-BIAD3",
+            "Annotation File": "idr0056-screenA-annotation.csv https://github.com/IDR/idr0056-stojic-lncrnas/blob/master/screenA/idr0056-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0013-neumann-mitocheck-screenB-1302",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1302-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "8951",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "validation screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes.",
+            "Publication Authors": "Neumann B, Walter T, H\u00e9rich\u00e9 JK, Bulkescher J, Erfle H, Conrad C, Rogers P, Poser I, Held M, Liebel U, Cetin C, Sieckmann F, Pau G, Kabbe R, W\u00fcnsche A, Satagopam V, Schmitz MH, Chapuis C, Gerlich DW, Schneider R, Eils R, Huber W, Peters JM, Hyman AA, Durbin R, Pepperkok R, Ellenberg J",
+            "PubMed ID": "20360735 https://www.ncbi.nlm.nih.gov/pubmed/20360735",
+            "PMC ID": "PMC3108885 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3108885",
+            "Publication DOI": "10.1038/nature08869 https://doi.org/10.1038/nature08869",
+            "Release Date": "2016-04-27",
+            "License": "CC0 https://creativecommons.org/publicdomain/zero/1.0/",
+            "Copyright": "Neumann et al",
+            "External URL": "http://www.mitosys.org/cgi-bin/mtc",
+            "Annotation File": "idr0013-screenB-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0013-neumann-mitocheck/screenB/idr0013-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0028-pascualvargas-rhogtpases-screenB-1652",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1652-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "673",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "RNAi screens for Rho GTPase regulators of cell shape and YAP/TAZ localisation in triple negative breast cancer.",
+            "Publication Authors": "Pascual-Vargas P, Cooper S, Sero J, Bousgouni V, Arias-Garcia M, Bakal C",
+            "PubMed ID": "28248929 https://www.ncbi.nlm.nih.gov/pubmed/28248929",
+            "PMC ID": "PMC5332010 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332010",
+            "Publication DOI": "10.1038/sdata.2017.18 https://doi.org/10.1038/sdata.2017.18",
+            "Release Date": "2016-11-01",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Pascual Vargas et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000104B https://doi.org/10.17867/10000104B",
+            "Annotation File": "idr0028-screenB-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0028-pascualvargas-rhogtpases/screenB/idr0028-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0022-koedoot-cellmigration-screenB-2152",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2152-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "13827",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "Validation",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "Uncovering the signaling landscape controlling breast cancer cell migration identifies novel metastasis driver genes.",
+            "Publication Authors": "Koedoot E, Fokkelman M, Rogkoti VM, Smid M, van de Sandt I, de Bont H, Pont C, Klip JE, Wink S, Timmermans MA, Wiemer EAC, Stoilov P, Foekens JA, Le D\u00e9v\u00e9dec SE, Martens JWM, van de Water B",
+            "PubMed ID": "31278301 https://www.ncbi.nlm.nih.gov/pubmed/31278301",
+            "PMC ID": "PMC6611796 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611796",
+            "Publication DOI": "10.1038/s41467-019-11020-3 https://doi.org/10.1038/s41467-019-11020-3",
+            "Release Date": "2019-09-17",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Koedoot et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000128b https://doi.org/10.17867/10000128b",
+            "Annotation File": "idr0022-screenB-annotation.csv https://github.com/IDR/idr0022-koedoot-cellmigration/blob/master/screenB/idr0022-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0025-stadler-proteinatlas-screenA-1851",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1851-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "confocal microscopy"
+        },
+        "details": {
+            "number of images": "144",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "protein screen",
+            "Imaging Method": "confocal microscopy",
+            "Publication Title": "Systematic validation of antibody binding and protein subcellular localization using siRNA and confocal microscopy.",
+            "Publication Authors": "Stadler C, Hjelmare M, Neumann B, Jonasson K, Pepperkok R, Uhl\u00e9n M, Lundberg E",
+            "PubMed ID": "22361696 https://www.ncbi.nlm.nih.gov/pubmed/22361696",
+            "Publication DOI": "10.1016/j.jprot.2012.01.030 https://doi.org/10.1016/j.jprot.2012.01.030",
+            "Release Date": "2017-03-16",
+            "License": "CC-BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/",
+            "Copyright": "Stadler et al",
+            "Annotation File": "idr0025-screenA-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0025-stadler-proteinatlas/screenA/idr0025-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0028-pascualvargas-rhogtpases-screenD-1654",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1654-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "676",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "RNAi screens for Rho GTPase regulators of cell shape and YAP/TAZ localisation in triple negative breast cancer.",
+            "Publication Authors": "Pascual-Vargas P, Cooper S, Sero J, Bousgouni V, Arias-Garcia M, Bakal C",
+            "PubMed ID": "28248929 https://www.ncbi.nlm.nih.gov/pubmed/28248929",
+            "PMC ID": "PMC5332010 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5332010",
+            "Publication DOI": "10.1038/sdata.2017.18 https://doi.org/10.1038/sdata.2017.18",
+            "Release Date": "2016-11-01",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Pascual Vargas et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000104D https://doi.org/10.17867/10000104D",
+            "Annotation File": "idr0028-screenD-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0028-pascualvargas-rhogtpases/screenD/idr0028-screenD-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0052-walther-condensinmap-experimentB-753",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-753-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "FRAP"
+        },
+        "details": {
+            "number of images": "68",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "microscopy assay",
+            "Imaging Method": "FRAP",
+            "Publication Title": "A quantitative map of human Condensins provides new insights into mitotic chromosome architecture.",
+            "Publication Authors": "Walther N, Hossain MJ, Politi AZ, Koch B, Kueblbeck M, \u00d8deg\u00e5rd-Fougner \u00d8, Lampe M, Ellenberg J",
+            "PubMed ID": "29632028 https://www.ncbi.nlm.nih.gov/pubmed/29632028",
+            "PMC ID": "PMC6028534 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6028534",
+            "Publication DOI": "10.1083/jcb.201801048 https://doi.org/10.1083/jcb.201801048",
+            "Release Date": "2019-04-15",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Walther et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000123b https://doi.org/10.17867/10000123b",
+            "Annotation File": "idr0052-experimentB-annotation.csv https://github.com/IDR/idr0052-walther-condensinmap/blob/master/experimentB/idr0052-experimentB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0021-lawo-pericentriolarmaterial-experimentA-51",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-51-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "protein localization",
+            "Imaging Method": "structured illumination microscopy (SIM)"
+        },
+        "details": {
+            "number of images": "414",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "protein localization",
+            "Imaging Method": "structured illumination microscopy (SIM)",
+            "Publication Title": "Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material.",
+            "Publication Authors": "Lawo S, Hasegan M, Gupta GD, Pelletier L",
+            "PubMed ID": "23086237 https://www.ncbi.nlm.nih.gov/pubmed/23086237",
+            "Publication DOI": "10.1038/ncb2591 https://doi.org/10.1038/ncb2591",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Lawo et al",
+            "Annotation File": "idr0021-experimentA-annotation.csv https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/master/experimentA/idr0021-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0056-stojic-lncrnas-screenB-2302",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2302-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "1291",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Identification of long noncoding RNAs in regulation of cell division",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "A long noncoding RNA regulates microtubule behaviour during mitosis",
+            "Publication Authors": "Stojic L, Lun ATL, Mascalchi P, Ernst C, Redmond AM, Mangei J, Cooper S, Barr AR, Taylor C, Franklin VNR, Bakal C, Marioni JC, Odom DT, Gergely F",
+            "PubMed ID": "32296040 https://www.ncbi.nlm.nih.gov/pubmed/32296040",
+            "PMC ID": "PMC7160116 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7160116",
+            "Publication DOI": "10.1038/s41467-020-14978-7 https://doi.org/10.1038/s41467-020-14978-7",
+            "Release Date": "2020-03-03",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Stojic et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000133b https://doi.org/10.17867/10000133b",
+            "BioStudies Accession": "S-BIAD3 https://www.ebi.ac.uk/biostudies/studies/S-BIAD3",
+            "Annotation File": "idr0056-screenB-annotation.csv https://github.com/IDR/idr0056-stojic-lncrnas/blob/master/screenB/idr0056-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0008-rohn-actinome-screenB-206",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-206-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "2715",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Comparative RNAi screening identifies a conserved core metazoan actinome by phenotype",
+            "Study Type": "high content screen",
+            "Screen Type": "secondary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Comparative RNAi screening identifies a conserved core metazoan actinome by phenotype.",
+            "Publication Authors": "Rohn JL, Sims D, Liu T, Fedorova M, Sch\u00f6ck F, Dopie J, Vartiainen MK, Kiger AA, Perrimon N, Baum B",
+            "PubMed ID": "21893601 https://www.ncbi.nlm.nih.gov/pubmed/21893601",
+            "PMC ID": "PMC3171124 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3171124",
+            "Publication DOI": "10.1083/jcb.201103168 https://doi.org/10.1083/jcb.201103168",
+            "Release Date": "2016-04-27",
+            "License": "CC BY-NC-SA 3.0 https://creativecommons.org/licenses/by-nc-sa/3.0/",
+            "Copyright": "Rohn et al",
+            "Annotation File": "idr0008-screenB-annotation.csv https://github.com/IDR/idr0008-rohn-actinome/blob/master/screenB/idr0008-screenB-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0061-wolf-spindlepositioning-screenA-2101",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2101-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "2100",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Live imaging screen reveals that TYRO3 and GAK ensure accurate spindle positioning in human cells",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Live imaging screen reveals that TYRO3 and GAK ensure accurate spindle positioning in human cells.",
+            "Publication Authors": "Wolf B, Busso C, G\u00f6nczy P",
+            "PubMed ID": "31253758 https://www.ncbi.nlm.nih.gov/pubmed/31253758",
+            "PMC ID": "PMC6599018 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6599018",
+            "Publication DOI": "10.1038/s41467-019-10446-z https://doi.org/10.1038/s41467-019-10446-z",
+            "Release Date": "2019-07-03",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Wolf et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000126 https://doi.org/10.17867/10000126",
+            "Annotation File": "idr0061-screenA-annotation.csv https://github.com/IDR/idr0061-wolf-spindlepositioning/blob/master/screenA/idr0061-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0010-doil-dnadamage-screenA-1351",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1351-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "45919",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "High content screen for genes whose downregulation by RNAi affects acccumulation of p53-binding protein 1 (53BP1) at sites of double strand breaks",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "RNF168 binds and amplifies ubiquitin conjugates on damaged chromosomes to allow accumulation of repair proteins.",
+            "Publication Authors": "Doil C, Mailand N, Bekker-Jensen S, Menard P, Larsen DH, Pepperkok R, Ellenberg J, Panier S, Durocher D, Bartek J, Lukas J, Lukas C",
+            "PubMed ID": "19203579 https://www.ncbi.nlm.nih.gov/pubmed/19203579",
+            "Publication DOI": "10.1016/j.cell.2008.12.041 https://doi.org/10.1016/j.cell.2008.12.041",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Doil et al",
+            "Annotation File": "idr0010-screenA-annotation.csv https://github.com/IDR/idr-metadata/blob/master/idr0010-doil-dnadamage/screenA/idr0010-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0022-koedoot-cellmigration-screenA-2151",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2151-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "43097",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "high content screen",
+            "Screen Type": "Primary",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "Uncovering the signaling landscape controlling breast cancer cell migration identifies novel metastasis driver genes.",
+            "Publication Authors": "Koedoot E, Fokkelman M, Rogkoti VM, Smid M, van de Sandt I, de Bont H, Pont C, Klip JE, Wink S, Timmermans MA, Wiemer EAC, Stoilov P, Foekens JA, Le D\u00e9v\u00e9dec SE, Martens JWM, van de Water B",
+            "PubMed ID": "31278301 https://www.ncbi.nlm.nih.gov/pubmed/31278301",
+            "PMC ID": "PMC6611796 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611796",
+            "Publication DOI": "10.1038/s41467-019-11020-3 https://doi.org/10.1038/s41467-019-11020-3",
+            "Release Date": "2019-09-17",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Koedoot et al.",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000128a https://doi.org/10.17867/10000128a",
+            "Annotation File": "idr0022-screenA-annotation.csv https://github.com/IDR/idr0022-koedoot-cellmigration/blob/master/screenA/idr0022-screenA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0070-kerwin-hdbr-experimentA-1104",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1104-track.bed.gz",
+        "metadata": {
+            "Sample Type": "tissue",
+            "Study Type": "protein localization",
+            "Imaging Method": "Dark-field microscopy"
+        },
+        "details": {
+            "number of images": "4554",
+            "Sample Type": "tissue",
+            "Organism": "Homo Sapiens",
+            "Study Title": "HDBR Atlas: Gene Expression in Early Human Development",
+            "Study Type": "protein localization",
+            "Imaging Method": "Dark-field microscopy",
+            "Publication Title": "The HUDSEN Atlas: a three-dimensional (3D) spatial framework for studying gene expression in the developing human brain.",
+            "Publication Authors": "Kerwin J, Yang Y, Merchan P, Sarma S, Thompson J, Wang X, Sandoval J, Puelles L, Baldock R, Lindsay S",
+            "PubMed ID": "20979583 https://www.ncbi.nlm.nih.gov/pubmed/20979583",
+            "Publication DOI": "10.1111/j.1469-7580.2010.01290.x https://doi.org/10.1111/j.1469-7580.2010.01290.x",
+            "Release Date": "2020-06-30",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Kerwin et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000137 https://doi.org/10.17867/10000137",
+            "External URL": "http://hdbratlas.org",
+            "Annotation File": "idr0070-experimentA-annotation.csv https://github.com/IDR/idr0070-kerwin-hdbr/blob/master/experimentA/idr0070-experimentA-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0009-simpson-secretion-screenA-251",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-251-track.bed.gz",
+        "showOnHubLoad": true,
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "fluorescence microscopy"
+        },
+        "details": {
+            "number of images": "175455",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway",
+            "Study Type": "high content screen",
+            "Screen Type": "primary screen",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "fluorescence microscopy",
+            "Publication Title": "Genome-wide RNAi screening identifies human proteins with a regulatory function in the early secretory pathway.",
+            "Publication Authors": "Simpson JC, Joggerst B, Laketa V, Verissimo F, Cetin C, Erfle H, Bexiga MG, Singan VR, H\u00e9rich\u00e9 JK, Neumann B, Mateos A, Blake J, Bechtel S, Benes V, Wiemann S, Ellenberg J, Pepperkok R",
+            "PubMed ID": "22660414 https://www.ncbi.nlm.nih.gov/pubmed/22660414",
+            "Publication DOI": "10.1038/ncb2510 https://doi.org/10.1038/ncb2510",
+            "Release Date": "2016-05-26",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Simpson et al",
+            "Annotation File": "idr0009-screenA-annotation.csv.gz https://github.com/IDR/idr-metadata/blob/master/idr0009-simpson-secretion/screenA/idr0009-screenA-annotation.csv.gz"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0086-miron-micrographs-experimentC-1160",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-1160-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "micrograph",
+            "Imaging Method": "structured illumination microscopy (SIM)"
+        },
+        "details": {
+            "number of images": "92",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Type": "micrograph",
+            "Imaging Method": "structured illumination microscopy (SIM)",
+            "Publication Title": "Chromatin arranges in chains of mesoscale domains with nanoscale functional topography independent of cohesin",
+            "Publication Authors": "Miron E, Oldenkamp R, Brown JM, Pinto DMS, Xu CS, Faria AR, Shaban HA, Rhodes JDP, Innocent C, de Ornellas S, Hess HF, Buckle V, Schermelleh L",
+            "Release Date": "2020-07-22",
+            "License": "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Lothar Schermelleh and Ezequiel Miron",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000141c https://doi.org/10.17867/10000141c",
+            "Annotation File": "idr0086-experimentC-annotation.csv https://github.com/IDR/idr0086-miron-micrographs/blob/master/experimentC/idr0086-experimentC-annotation.csv"
+        }
+    },
+    {
+        "type": "omeroidr",
+        "name": "idr0056-stojic-lncrnas-screenC-2303",
+        "url": "https://vizhub.wustl.edu/public/imagetrack/hg38/hg38-screenID-2303-track.bed.gz",
+        "metadata": {
+            "Sample Type": "cell",
+            "Study Type": "high content screen",
+            "Imaging Method": "spinning disk confocal microscopy"
+        },
+        "details": {
+            "number of images": "262",
+            "Sample Type": "cell",
+            "Organism": "Homo sapiens",
+            "Study Title": "Identification of long noncoding RNAs in regulation of cell division",
+            "Study Type": "high content screen",
+            "Screen Type": "Validation",
+            "Screen Technology Type": "RNAi screen",
+            "Imaging Method": "spinning disk confocal microscopy",
+            "Publication Title": "A long noncoding RNA regulates microtubule behaviour during mitosis",
+            "Publication Authors": "Stojic L, Lun ATL, Mascalchi P, Ernst C, Redmond AM, Mangei J, Cooper S, Barr AR, Taylor C, Franklin VNR, Bakal C, Marioni JC, Odom DT, Gergely F",
+            "PubMed ID": "32296040 https://www.ncbi.nlm.nih.gov/pubmed/32296040",
+            "PMC ID": "PMC7160116 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7160116",
+            "Publication DOI": "10.1038/s41467-020-14978-7 https://doi.org/10.1038/s41467-020-14978-7",
+            "Release Date": "2020-03-03",
+            "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+            "Copyright": "Stojic et al",
+            "Data Publisher": "University of Dundee",
+            "Data DOI": "10.17867/10000133c https://doi.org/10.17867/10000133c",
+            "BioStudies Accession": "S-BIAD3 https://www.ebi.ac.uk/biostudies/studies/S-BIAD3",
+            "Annotation File": "idr0056-screenC-annotation.csv https://github.com/IDR/idr0056-stojic-lncrnas/blob/master/screenC/idr0056-screenC-annotation.csv"
+        }
+    }
+]

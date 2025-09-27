@@ -33,8 +33,15 @@ export function WashUBrowser({
     const url = new URL(baseUrl);
     const params = new URLSearchParams();
 
+    // Use embed mode recommended by docs to improve embedding behavior
+    params.set("embed", "true");
+
     if (genome) params.set("genome", genome);
-    if (position) params.set("position", position);
+    if (position) {
+      // Normalize thousand separators/spaces to avoid chr7:55-56 mis-parse
+      const normalizedPosition = position.replace(/\s+/g, "").replace(/,/g, "");
+      params.set("position", normalizedPosition);
+    }
     if (typeof noDefaultTracks === "boolean" && noDefaultTracks) {
       params.set("noDefaultTracks", "true");
     }
@@ -60,7 +67,6 @@ export function WashUBrowser({
       title="WashU Epigenome Browser"
       className={className}
       style={{ width: "100%", height: resolvedHeight, border: "0" }}
-      referrerPolicy="no-referrer"
     />
   );
 }

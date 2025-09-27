@@ -1,0 +1,42 @@
+[
+    {
+        "type": "bigBed",
+        "name": "placenta H3K27me3 ChIP-seq peaks",
+        "url": "https://www.encodeproject.org/files/ENCFF606YBI/@@download/ENCFF606YBI.bigBed",
+        "metadata": {
+            "Sample": "placenta",
+            "Type": "pseudoreplicated peaks",
+            "Assay": "H3K27me3 ChIP-seq",
+            "genome": "hg38"
+        },
+        "details": {
+            "Accession": "ENCFF606YBI",
+            "Lab": "ENCODE Processing Pipeline",
+            "Project": "Roadmap"
+        },
+        "options": {
+              "color": "#b40000"
+        },
+        "showOnHubLoad": true
+    },
+    {
+          "type": "bigBed",
+          "name": "placenta H3K27me3 ChIP-seq peaks",
+          "url": "https://www.encodeproject.org/files/ENCFF604BAD/@@download/ENCFF604BAD.bigBed",
+          "metadata": {
+            "Sample": "placenta",
+            "Type": "peaks",
+            "Assay": "H3K27me3 ChIP-seq",
+            "genome": "hg38"
+          },
+          "details": {
+            "Accession": "ENCFF604BAD",
+            "Lab": "ENCODE Processing Pipeline",
+            "Project": "Roadmap"
+          },
+          "options": {
+            "color": "#b40000"
+          },
+         "showOnHubLoad": true
+    }
+]

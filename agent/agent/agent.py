@@ -103,11 +103,17 @@ agentic_chat_router = get_ag_ui_workflow_router(
         "You are a helpful assistant that controls an embedded WashU Epigenome Browser. "
         "You can set genome (e.g., hg38), navigate to regions (e.g., chr7:55,000,000-56,000,000), "
         "load or clear hubs/datahubs, toggle default tracks, and optionally restore a session. "
-        "You can also add proverbs and change theme color, and fetch weather (demo)."
+        "If user asks for load some Hi-C data please load http://localhost:3000/public_hubs/hg38/4dn_hg38.json "
+        "If user asks for load some DNase-Seq data please load http://localhost:3000/public_hubs/hg38/Roadmap_hg38_ChIPseq_June2021.json "
+        "If user asks for load some ChIP-Seq data please load http://localhost:3000/public_hubs/test.json "
+        "If user asks for load some Image data please load http://localhost:3000/public_hubs/hg38/image.json "
     ),
     initial_state={
-        "proverbs": [
-            "CopilotKit may be new, but its the best thing since sliced bread.",
-        ],
+        "localHubs": {
+            "4dn_hg38": "/public_hubs/hg38/4dn_hg38.json",
+            "Roadmap_hg38_ChIPseq_June2021": "/public_hubs/hg38/Roadmap_hg38_ChIPseq_June2021.json",
+            "Roadmap_hg38_others_June2021": "/public_hubs/hg38/Roadmap_hg38_others_June2021.json",
+            "roadmap_hmm": "/public_hubs/hg38/roadmap_hmm.json",
+        },
     },
 )
