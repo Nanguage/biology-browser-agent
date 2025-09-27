@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { WeatherCard } from "@/components/WeatherCard";
+import WashUBrowser from "@/components/WashUBrowser";
 
 import { useCoAgent, useCopilotAction } from "@copilotkit/react-core";
 import { CopilotKitCSSProperties, CopilotSidebar } from "@copilotkit/react-ui";
@@ -29,8 +30,8 @@ export default function CopilotKitPage() {
         clickOutsideToClose={false}
         defaultOpen={true}
         labels={{
-          title: "Popup Assistant",
-          initial: "👋 Hi, there! You're chatting with an agent. This agent comes with a few tools to get you started.\n\nFor example you can try:\n- **Frontend Tools**: \"Set the theme to orange\"\n- **Shared State**: \"Write a proverb about AI\"\n- **Generative UI**: \"Get the weather in SF\"\n\nAs you interact with the agent, you'll see the UI update in real-time to reflect the agent's **state**, **tool calls**, and **progress**."
+          title: "Genome Browser Agent",
+          initial: "👋 Control the WashU Epigenome Browser. Try:\n- **Genome**: \"Set genome to hg38\"\n- **Region**: \"Go to chr7:55,000,000-56,000,000\"\n- **Hub**: \"Add hub https://.../hub.txt\"\n- **Defaults**: \"Enable no default tracks\"\nYou can also change the theme color or show a weather card."
         }}
       />
     </main>
@@ -39,7 +40,12 @@ export default function CopilotKitPage() {
 
 // State of the agent, make sure this aligns with your agent's state.
 type AgentState = {
-  proverbs: string[];
+  genome?: string;
+  position?: string;
+  hub?: string[];
+  datahub?: string;
+  session?: string;
+  noDefaultTracks?: boolean;
 }
 
 function YourMainContent({ themeColor }: { themeColor: string }) {
@@ -47,27 +53,14 @@ function YourMainContent({ themeColor }: { themeColor: string }) {
   const {state, setState} = useCoAgent<AgentState>({
     name: "sample_agent",
     initialState: {
-      proverbs: [
-        "CopilotKit may be new, but its the best thing since sliced bread.",
-      ],
+      genome: "hg38",
+      position: "chr1:1-1,000,000",
+      hub: [],
+      noDefaultTracks: false,
     },
   })
 
-  // 🪁 Frontend Actions: https://docs.copilotkit.ai/coagents/frontend-actions
-  useCopilotAction({
-    name: "add_proverb",
-    parameters: [{
-      name: "proverb",
-      description: "The proverb to add. Make it witty, short and concise.",
-      required: true,
-    }],
-    handler: ({ proverb }) => {
-      setState({
-        ...state,
-        proverbs: [...state?.proverbs || [], proverb],
-      });
-    },
-  });
+  // Removing demo proverb-related actions and state
 
   //🪁 Generative UI: https://docs.copilotkit.ai/coagents/generative-ui
   useCopilotAction({
@@ -83,38 +76,98 @@ function YourMainContent({ themeColor }: { themeColor: string }) {
     followUp: false,
   });
 
+  // WashU Browser controls (frontend actions matching agent tools)
+  useCopilotAction({
+    name: "set_genome",
+    parameters: [{ name: "genome", type: "string", required: true }],
+    handler: ({ genome }) => {
+      setState({ ...state, genome });
+    },
+  });
+
+  useCopilotAction({
+    name: "set_region",
+    parameters: [{ name: "position", type: "string", required: true }],
+    handler: ({ position }) => {
+      setState({ ...state, position });
+    },
+  });
+
+  useCopilotAction({
+    name: "set_hub",
+    parameters: [{ name: "hub", type: "string", required: true }],
+    handler: ({ hub }) => {
+      setState({ ...state, hub: [hub] });
+    },
+  });
+
+  useCopilotAction({
+    name: "add_hub",
+    parameters: [{ name: "hub", type: "string", required: true }],
+    handler: ({ hub }) => {
+      const current = state.hub || [];
+      if (!current.includes(hub)) {
+        setState({ ...state, hub: [...current, hub] });
+      }
+    },
+  });
+
+  useCopilotAction({
+    name: "clear_hubs",
+    parameters: [],
+    handler: () => {
+      setState({ ...state, hub: [] });
+    },
+  });
+
+  useCopilotAction({
+    name: "set_datahub",
+    parameters: [{ name: "datahub", type: "string", required: true }],
+    handler: ({ datahub }) => {
+      setState({ ...state, datahub });
+    },
+  });
+
+  useCopilotAction({
+    name: "set_session",
+    parameters: [{ name: "session", type: "string", required: true }],
+    handler: ({ session }) => {
+      setState({ ...state, session });
+    },
+  });
+
+  useCopilotAction({
+    name: "toggle_no_default_tracks",
+    parameters: [{ name: "enabled", type: "boolean", required: true }],
+    handler: ({ enabled }) => {
+      setState({ ...state, noDefaultTracks: enabled });
+    },
+  });
+
   return (
     <div
       style={{ backgroundColor: themeColor }}
-      className="h-screen w-screen flex justify-center items-center flex-col transition-colors duration-300"
+      className="h-screen w-screen flex flex-col transition-colors duration-300"
     >
-      <div className="bg-white/20 backdrop-blur-md p-8 rounded-2xl shadow-xl max-w-2xl w-full">
-        <h1 className="text-4xl font-bold text-white mb-2 text-center">Proverbs</h1>
-        <p className="text-gray-200 text-center italic mb-6">This is a demonstrative page, but it could be anything you want! 🪁</p>
-        <hr className="border-white/20 my-6" />
-        <div className="flex flex-col gap-3">
-          {state.proverbs?.map((proverb, index) => (
-            <div 
-              key={index} 
-              className="bg-white/15 p-4 rounded-xl text-white relative group hover:bg-white/20 transition-all"
-            >
-              <p className="pr-8">{proverb}</p>
-              <button 
-                onClick={() => setState({
-                  ...state,
-                  proverbs: state.proverbs?.filter((_, i) => i !== index),
-                })}
-                className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity 
-                  bg-red-500 hover:bg-red-600 text-white rounded-full h-6 w-6 flex items-center justify-center"
-              >
-                ✕
-              </button>
-            </div>
-          ))}
+      <div className="bg-white/20 backdrop-blur-md p-0 rounded-2xl shadow-xl w-full h-full flex flex-col">
+        <div className="p-4 md:p-6 pb-2">
+          <h1 className="text-3xl font-bold text-white mb-2">WashU Epigenome Browser</h1>
+          <p className="text-gray-200 text-sm">Use the assistant to control genome, region, and track hubs. Examples: "Set genome to hg38", "Go to chr7:55,000,000-56,000,000", "Load this hub URL ...", "Enable no default tracks".</p>
         </div>
-        {state.proverbs?.length === 0 && <p className="text-center text-white/80 italic my-8">
-          No proverbs yet. Ask the assistant to add some!
-        </p>}
+
+        <div className="flex-1 min-h-0">
+          <WashUBrowser
+            genome={state.genome}
+            position={state.position}
+            hub={state.hub}
+            datahub={state.datahub}
+            session={state.session}
+            noDefaultTracks={state.noDefaultTracks}
+            height="100%"
+          />
+        </div>
+
+        {/* Removed demo Proverbs section */}
       </div>
     </div>
   );
