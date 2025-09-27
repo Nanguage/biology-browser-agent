@@ -1,119 +1,37 @@
-# CopilotKit <> LlamaIndex Starter
+![](./bba-title.png)
 
-This is a starter template for building AI agents using [LlamaIndex](https://llamaindex.com) and [CopilotKit](https://copilotkit.ai). It provides a modern Next.js application with an integrated investment analyst agent that can research stocks, analyze market data, and provide investment insights.
+Explore the human genome conversationally. Ask the agent to jump to regions, load tracks, and assemble data views — and watch the WashU Epigenome Browser respond in real time.
 
-## Prerequisites
+- **Talk to the genome**: “Go to chr7:55,000,000–56,000,000”, “Load DNase‑Seq”, “Add Hi‑C”.
+- **Your data, instantly**: Serve local hubs under `public/public_hubs/` and load them with one line.
+- **Clean, focused UI**: A full‑screen embedded browser with an AI sidebar that understands genomics.
 
-- Node.js 18+ 
-- Python 3.8+
-- OpenAI API Key (for the LlamaIndex agent)
-- [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- Any of the following package managers:
-  - pnpm (recommended)
-  - npm
-  - yarn
-  - bun
+## What it can do
 
-> **Note:** This repository ignores lock files (package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb) to avoid conflicts between different package managers. Each developer should generate their own lock file using their preferred package manager. After that, make sure to delete it from the .gitignore.
+- Navigate to genes or regions (`chr:start-end`), with smart parsing of human‑friendly inputs.
+- Load curated local hubs (DNase‑Seq, ChIP‑Seq, Hi‑C, image tracks, and more).
+- Toggle defaults, switch genomes, and restore saved sessions — all by asking.
 
-## Getting Started
+### Try saying
+- “Set genome to hg38”
+- “Go to chr8:127,735,434–127,742,951 (MYC)”
+- “Add hub /public_hubs/hg38/4dn_hg38.json”
+- “Set datahub /public_hubs/hg38/Roadmap_hg38_ChIPseq_June2021.json”
+- “Enable no default tracks”
 
-1. Install dependencies using your preferred package manager:
-```bash
-# Using pnpm (recommended)
-pnpm install
+## Your local data
+Place hubs under `public/public_hubs/` and load them via `http://localhost:3000/public_hubs/...`.
 
-# Using npm
-npm install
+Included examples:
+- `/public_hubs/test.json`
+- `/public_hubs/hg38/4dn_hg38.json`
+- `/public_hubs/hg38/hg38_cool.json`
+- `/public_hubs/hg38/image.json`
+- `/public_hubs/hg38/Roadmap_hg38_ChIPseq_June2021.json`
+- `/public_hubs/hg38/Roadmap_hg38_others_June2021.json`
+- `/public_hubs/hg38/roadmap_hmm.json`
 
-# Using yarn
-yarn install
+## Learn more / build your own
+Developers: see setup, scripts, CORS notes, and extension points in [delopment.md](./delopment.md).
 
-# Using bun
-bun install
-```
-
-2. Install Python dependencies for the LlamaIndex agent:
-```bash
-# Using pnpm
-pnpm install:agent
-
-# Using npm
-npm run install:agent
-
-# Using yarn
-yarn install:agent
-
-# Using bun
-bun run install:agent
-```
-
-3. Set up your OpenAI API key:
-```bash
-export OPENAI_API_KEY="your-openai-api-key-here"
-```
-
-4. Start the development server:
-```bash
-# Using pnpm
-pnpm dev
-
-# Using npm
-npm run dev
-
-# Using yarn
-yarn dev
-
-# Using bun
-bun run dev
-```
-
-This will start both the UI and agent servers concurrently.
-
-## Available Scripts
-The following scripts can also be run using your preferred package manager:
-- `dev` - Starts both UI and agent servers in development mode
-- `dev:debug` - Starts development servers with debug logging enabled
-- `dev:ui` - Starts only the Next.js UI server
-- `dev:agent` - Starts only the LlamaIndex agent server
-- `install:agent` - Installs Python dependencies for the agent
-- `build` - Builds the Next.js application for production
-- `start` - Starts the production server
-- `lint` - Runs ESLint for code linting
-
-## Documentation
-
-The main UI component is in `src/app/page.tsx`. You can:
-- Modify the theme colors and styling
-- Add new frontend actions
-- Customize the CopilotKit sidebar appearance
-
-## 📚 Documentation
-
-- [LlamaIndex Documentation](https://docs.llamaindex.com/introduction) - Learn more about LlamaIndex and its features
-- [CopilotKit Documentation](https://docs.copilotkit.ai) - Explore CopilotKit's capabilities
-- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API
-- [YFinance Documentation](https://pypi.org/project/yfinance/) - Financial data tools
-
-## Contributing
-
-Feel free to submit issues and enhancement requests! This starter is designed to be easily extensible.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Troubleshooting
-
-### Agent Connection Issues
-If you see "I'm having trouble connecting to my tools", make sure:
-1. The LlamaIndex agent is running on port 8000
-2. Your OpenAI API key is set correctly
-3. Both servers started successfully
-
-### Python Dependencies
-If you encounter Python import errors:
-```bash
-cd agent
-uv sync
-```
+— Built on the WashU Epigenome Browser and CopilotKit — official browser guide: [docs](`https://eg.readthedocs.io/en/latest/index.html`).
